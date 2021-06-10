@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">BottoNavigation</string>
+    <string name="activity_main_bottom_screen_home">Home</string>
+    <string name="activity_main_bottom_screen_favorite">Favorite</string>
+    <string name="activity_main_bottom_screen_map">Map</string>
+    <string name="activity_main_bottom_screen_partsCategory">Parts Category</string>
+    <string name="activity_main_bottom_screen_search">Search</string>
+    <string name="activity_main_bottom_screen_branch">Branches</string>
+    <string name="activity_main_bottom_screen_profile">Profile</string>
+
+
+    <!--  -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">nav_header_title</string>
+    <string name="nav_header_subtitle">nav_header_subtitle</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_order">Order</string>
+    <string name="menu_chatbot">ChatBot</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_cart">Shopping Cart</string>
+    <string name="menu_register">Register</string>
+    <string name="menu_part">Parts</string>
+    <string name="menu_settings">Setting</string>
+    <string name="menu_coupon">Coupon</string>
+
+    <string name="profile_title_name">Name</string>
+    <string name="profile_title_email">Email</string>
+    <string name="profile_title_address">Address</string>
+    <string name="profile_title_company">Company</string>
+    <string name="profile_title_notes">Recipt notes</string>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="home_news">News</string>
+    <string name="home_register">Register</string>
+    <string name="home_login">Login</string>
+
+    <string name="item_txt_phone">Tel no. :&#160;</string>
+    <string name="storage_url" translatable="false">https://firebasestorage.googleapis.com/v0/b/carsellingapp-e5200.appspot.com/o/%s%s%s?alt=media</string>
+    <string name="storage_url2" translatable="false">https://firebasestorage.googleapis.com/v0/b/carsellingapp-e5200.appspot.com/o/branch%2F</string>
+    <string name="storage_category_url" translatable="false">https://firebasestorage.googleapis.com/v0/b/carsellingapp-e5200.appspot.com/o/category%2F</string>
+    <string name="storage_parts_url" translatable="false">https://firebasestorage.googleapis.com/v0/b/carsellingapp-e5200.appspot.com/o/parts%2F</string>
+    <string name="branch_contact">Contact Us</string>
+    <string name="branch_location">Location</string>
+    <string name="cart_price" translatable="false">$&#160;</string>
+    <string name="cart_type">Type :&#160;</string>
+
+    <string name="brand_type_exh">exhibition room</string>
+    <string name="brand_type_main">maintenance center</string>
+    <string name="brand_type_parts">parts center</string>
+    <string name="brand_type_rental">car rental center</string>
+    <string name="brand_type_unclassifiy">Unclassifiy</string>
+
+    <string name="spin_all">all</string>
+    <string name="title_brand_type">Branch Type</string>
+    <string name="frag_title_pdf">PDF View</string>
+    <string name="company_name">Inchcape</string>
+    <string name="navigate">Navigate</string>
+
+    <string name="cart_total">Total Price :</string>
+
+    <string name="cart_pay">Pay</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="toyota">Toyota</string>
+    <string name="hino">Hino</string>
+    <string name="daihatsu">Daihatsu</string>
+    <string name="lexus">Lexus</string>
+    <string name="title_brand_brand">Brand</string>
+
+    <string name="en_language">English</string>
+    <string name="zh_language">中文</string>
+    <string name="order_title_id">Order ID:</string>
+    <string name="order_title_date">Order Date :</string>
+    <string name="order_title_status">Order Status :</string>
+
+    <string name="in_process">In Process</string>
+    <string name="delivering">Delivering</string>
+    <string name="finished">Finished</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="overdue">Overdue</string>
+
+    <string name="chatbot_send">SEND</string>
+    <string name="price" translatable="false">$ %1$.2f</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="OK">Okay</string>
+    <string name="hot_product">Hot Product</string>
+
+    <!--    Login-->
+    <string name="email">Email address</string>
+    <string name="password">password</string>
+    <string name="login">Login Now</string>
+    <string name="menu_logout">Log Out</string>
+
+    <!--    order-->
+    <string name="order_orderId">Order ID : %s</string>
+    <string name="order_orderDate">Order Date : %s</string>
+    <string name="order_orderStatus">Order Status : %s</string>
+    <string name="order_orderAddress">Delivery Address : %s</string>
+    <string name="order_totalPrice">Total Price : %.2f</string>
+    <string name="order_partstype">Type : %s</string>
+
+    <string name="money">\u0024</string>
+    <string name="should_login_first">You should LOGIN first.</string>
+    <string name="CONTINUE">Continue</string>
+
+    <string name="menu_delete">Delete</string>
+    <string name="menu_save">Save</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="qty">Quantity</string>
+    <string name="credits">Credits</string>
+    <string name="order_history">Order history</string>
+    <string name="order_not_found">Order not found</string>
+
+    <string name="parts_str">Parts ID : %s\nName : %s\nCategory ID : %d\nPrice : %.2f\nQuantity : %d</string>
+    <string name="confirm">Confirm</string>
+    <string name="success">Success</string>
+</resources>

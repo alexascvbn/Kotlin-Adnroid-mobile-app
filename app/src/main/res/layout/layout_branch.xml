@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout android:orientation="vertical"-->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    android:id="@+id/branch_layout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--    android:id="@+id/branch_layout"-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/base_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/fbGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/locAll"
+                android:textSize="10sp"
+                android:text="All"
+                android:backgroundTint="@color/pColor4_medSlaBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                app:cornerRadius="8dp"
+                android:textAllCaps="false"
+                android:layout_weight="1"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/locKowloon"
+                android:textSize="10sp"
+                android:text="Kowloon"
+                android:backgroundTint="@color/pColor4_medSlaBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                app:cornerRadius="8dp"
+                android:textAllCaps="false"
+                android:layout_weight="1"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/locHongKong"
+                android:textSize="10sp"
+                android:text="Hong Kong"
+                android:backgroundTint="@color/pColor4_medSlaBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                app:cornerRadius="8dp"
+                android:textAllCaps="false"
+                android:layout_weight="1"/>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/locNewTerr"
+                android:textSize="10sp"
+                android:text="NT"
+                android:backgroundTint="@color/pColor4_medSlaBlue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3sp"
+                app:cornerRadius="8dp"
+                android:textAllCaps="false"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/filterGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <com.example.bottonavigation.util.NDSpinner
+                android:id="@+id/spBranchType"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <com.example.bottonavigation.util.NDSpinner
+                android:id="@+id/spBrand"
+                android:layout_weight="1"
+                android:layout_margin="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recycler_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipe_refresh_recycler_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="vertical" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:src="@drawable/ic_vertical_align_top_black_24dp"
+        android:tint="@android:color/white"
+        app:backgroundTint="#ECC887"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabSize="mini"
+        app:layout_anchor="@+id/base_linearLayout"
+        app:layout_anchorGravity="bottom|end"
+        app:layout_behavior=".util.FABScrollBehaviour" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

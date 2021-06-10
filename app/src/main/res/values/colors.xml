@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="active_dots">#BD0847</color>
+    <color name="inactive_dots">#83878B</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="whiteOpacity">#DDFFFF</color>
+
+    <color name="pGold">#F9A602</color>
+    <color name="pColor0_almond">#EFD9CE</color>
+    <color name="pColor1_soap">#B79CED</color>
+    <color name="pColor2_briLav">#9E7FDF</color>
+    <color name="pColor3_medPurp">#7161EF</color>
+    <color name="pColor4_medSlaBlue">#7150EF</color>
+    <color name="light_gray">#e6e6e6</color>
+    <color name="dollar_color">#CC4A4A</color>
+
+<!--    Login-->
+    <color name="dark_red">#8B0000</color>
+    <color name="red">#DC143C</color>
+    <color name="Login_form_details">#ccffffff</color>
+    <color name="Login_form_details_light">#1affffff</color>
+    <color name="Login_form_details_medium">#66ffffff</color>
+    <color name="loginCursor">#FFFFFF</color>
+</resources>

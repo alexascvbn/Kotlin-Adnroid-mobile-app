@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.example.bottonavigation.customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#0000"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/profile_title_name"
+            android:textColor="#a2a1b8"
+            android:textSize="16sp" />
+
+        <com.example.bottonavigation.customfonts.MyEditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:gravity="end"
+            android:text="Johnson Yu"
+            android:padding="16dp"
+            android:textColor="#181737"
+            android:textColorHint="#181737"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.bottonavigation.customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#0000"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/profile_title_email"
+            android:textColor="#a2a1b8"
+            android:textSize="16sp" />
+
+        <com.example.bottonavigation.customfonts.MyEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:gravity="end"
+            android:text="johnson@gamil.com"
+            android:padding="16dp"
+            android:textColor="#181737"
+            android:textColorHint="#1b193b"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.bottonavigation.customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#0000"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="Company Name"
+            android:textColor="#a2a1b8"
+            android:textSize="16sp" />
+
+        <com.example.bottonavigation.customfonts.MyEditText
+            android:id="@+id/etCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:gravity="end"
+            android:text="TY IVE"
+            android:padding="16dp"
+            android:textColor="#181737"
+            android:textColorHint="#1b193b"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.bottonavigation.customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="#0000"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/profile_title_address"
+            android:textColor="#a2a1b8"
+            android:textSize="16sp" />
+
+        <com.example.bottonavigation.customfonts.MyEditText
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:gravity="end"
+            android:text="123 room, happy village, hong kong"
+            android:padding="16dp"
+            android:textColorHint="#181737"
+            android:textSize="16sp" />
+    </LinearLayout>
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:layout_marginTop="@dimen/card_padding"-->
+<!--        android:id="@+id/btnSubmit"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:text="Submit"-->
+<!--        android:background="@color/design_default_color_primary"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"/>-->
+</LinearLayout>

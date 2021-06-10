@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".sidebarFragment.ProfileFragment"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@android:color/white"
+    android:id="@+id/branch_layout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/sideToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/AppTheme.AppBarOverlay"/>
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/bgFrame"
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="25dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/backgrd" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/userImg"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#DDDDDD"
+                        android:cropToPadding="true"
+                        android:gravity="bottom"
+                        android:padding="5dp"
+                        android:src="@drawable/ic_person_black_24dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/bgFrame"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#0000"
+                    android:gravity="start"
+                    android:padding="16dp"
+                    android:text="@string/profile_title_name"
+                    android:textColor="#a2a1b8"
+                    android:textSize="16sp" />
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:gravity="end"
+                    android:padding="16dp"
+                    android:textColor="#181737"
+                    android:textColorHint="#181737"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#0000"
+                    android:gravity="start"
+                    android:padding="16dp"
+                    android:text="@string/profile_title_email"
+                    android:textColor="#a2a1b8"
+                    android:textSize="16sp" />
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:gravity="end"
+                    android:padding="16dp"
+                    android:textColor="#181737"
+                    android:textColorHint="#1b193b"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/tvCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#0000"
+                    android:gravity="start"
+                    android:padding="16dp"
+                    android:text="@string/profile_title_company"
+                    android:textColor="#a2a1b8"
+                    android:textSize="16sp" />
+
+                <com.example.bottonavigation.customfonts.MyEditText
+                    android:id="@+id/company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:gravity="end"
+                    android:windowSoftInputMode="adjustPan"
+                    android:padding="16dp"
+                    android:textColor="#181737"
+                    android:textColorHint="#1b193b"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/tvAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:background="#0000"
+                    android:gravity="start"
+                    android:padding="16dp"
+                    android:text="@string/profile_title_address"
+                    android:textColor="#a2a1b8"
+                    android:textSize="16sp" />
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:gravity="end"
+                    android:padding="16dp"
+                    android:textColor="#181737"
+                    android:textColorHint="#1b193b"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dad8d8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.example.bottonavigation.customfonts.MyTextView
+                    android:id="@+id/tvNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#0000"
+                    android:gravity="start"
+                    android:padding="16dp"
+                    android:text="@string/profile_title_notes"
+                    android:textColor="#a2a1b8"
+                    android:textSize="16dp" />
+                <!--com.rey.material.widget.Switch!-->
+                <Switch
+                    android:id="@+id/swNotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:checked="true"
+                    android:padding="16dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

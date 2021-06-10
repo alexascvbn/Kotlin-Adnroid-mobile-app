@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/dIDTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dTitleTv"
+            style="Base.TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dCategoryTv"
+            android:text="Title"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/dCategoryTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dIDTv"
+            android:text="Category"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:id="@+id/dImageIv"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/dTitleTv"
+            android:layout_centerHorizontal="true"
+            android:src="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/dDescrTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dImageIv"
+            android:text="Sample description..."
+            android:textColor="#000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

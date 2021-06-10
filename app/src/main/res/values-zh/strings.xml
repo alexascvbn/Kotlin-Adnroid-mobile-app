@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">底部導航</string>
+    <string name="activity_main_bottom_screen_home">主頁</string>
+    <string name="activity_main_bottom_screen_favorite">喜愛</string>
+    <string name="activity_main_bottom_screen_map">地圖</string>
+    <string name="activity_main_bottom_screen_partsCategory">產品分類</string>
+    <string name="activity_main_bottom_screen_search">搜尋</string>
+    <string name="activity_main_bottom_screen_branch">分行</string>
+    <string name="activity_main_bottom_screen_profile">個人信息</string>
+
+    <string name="hello_blank_fragment">你好空白片段</string>
+
+    <string name="nav_header_desc">導航標題</string>
+    <string name="nav_header_title">nav_header_title</string>
+    <string name="nav_header_subtitle">nav_header_subtitle</string>
+
+    <string name="menu_profile">輪廓</string>
+    <string name="menu_order">訂購</string>
+    <string name="menu_chatbot">聊天寶</string>
+    <string name="menu_tools">工具</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_cart">購物車</string>
+    <string name="menu_register">注冊</string>
+    <string name="menu_settings">設置</string>
+    <string name="menu_coupon">優惠劵</string>
+
+    <string name="profile_title_name">名稱</string>
+    <string name="profile_title_email">電子郵件</string>
+    <string name="profile_title_address">地址</string>
+    <string name="profile_title_company">公司</string>
+    <string name="profile_title_notes">備註說明</string>
+
+    <string name="title_activity_maps">地圖</string>
+
+    <string name="home_news">新聞</string>
+    <string name="home_register">註冊</string>
+    <string name="home_login">登錄</string>
+
+    <string name="item_txt_phone">電話號碼 ：&#160;</string>
+    <string name="branch_contact">聯繫我們</string>
+    <string name="branch_location">位置</string>
+    <string name="cart_type">類型：</string>
+
+    <string name="brand_type_exh">展覽室</string>
+    <string name="brand_type_main">維修中心</string>
+    <string name="brand_type_parts">零件中心</string>
+    <string name="brand_type_rental">租車中心</string>
+    <string name="brand_type_unclassifiy">未分類</string>
+
+    <string name="spin_all">所有</string>
+    <string name="title_brand_type">分行類型</string>
+    <string name="frag_title_pdf">PDF查看</string>
+    <string name="company_name">英之傑</string>
+    <string name="navigate">導航</string>
+
+    <string name="cart_total">總價：</string>
+
+    <string name="cart_pay">付款</string>
+
+    <string name="title_activity_login">登入</string>
+    <string name="prompt_email">電子郵件</string>
+    <string name="prompt_password">密碼</string>
+    <string name="action_sign_in">登錄或註冊</string>
+    <string name="action_sign_in_short">登入</string>
+    <string name="welcome">歡迎光臨！</string>
+    <string name="invalid_username">用戶名無效</string>
+    <string name="invalid_password">密碼必須大於5個字符</string>
+    <string name="login_failed">“登錄失敗”</string>
+    <string name="toyota">豐田</string>
+    <string name="hino">日野</string>
+    <string name="daihatsu">大發</string>
+    <string name="lexus">雷克薩斯</string>
+    <string name="title_brand_brand">品牌</string>
+
+    <string name="en_language">English</string>
+    <string name="zh_language">中文</string>
+    <string name="order_title_id">訂單編號</string>
+    <string name="order_title_date">下訂日期</string>
+    <string name="order_title_status">訂單狀態</string>
+
+    <string name="delivering">運送中</string>
+    <string name="finished">已完成</string>
+    <string name="in_process">處理中</string>
+    <string name="overdue">過期</string>
+    <string name="cancelled">已取消</string>
+
+    <string name="chatbot_send">傳送</string>
+    <string name="cancel">取消</string>
+    <string name="submit">提交</string>
+    <string name="OK">知道了</string>
+    <string name="hot_product">熱門商品</string>
+    <string name="menu_part">零件</string>
+
+    <!--    Login-->
+    <string name="email">電郵地址</string>
+    <string name="password">密碼</string>
+    <string name="login">登入</string>
+    <string name="menu_logout">登出</string>
+    <string name="order_orderId">訂單編號 : %s</string>
+    <string name="order_orderDate">下訂日期: %s</string>
+    <string name="order_orderStatus">訂單狀態 : %s</string>
+    <string name="order_orderAddress">送貨地址 : %s</string>
+    <string name="order_totalPrice">合計 : %.2f</string>
+    <string name="money">\u0024</string>
+    <string name="should_login_first">你應先登入</string>
+    <string name="CONTINUE">繼續</string>
+    <string name="menu_delete">刪除</string>
+    <string name="menu_save">保存</string>
+    <string name="confirmation">確認</string>
+    <string name="qty">數量</string>
+    <string name="credits">信用點</string>
+    <string name="order_history">訂單歷史</string>
+    <string name="order_partstype">類型 : %s</string>
+    <string name="order_not_found">訂單不見了 T_T </string>
+
+    <string name="parts_str">零件編號 : %s\n零件名稱 : %s\n分類編號 : %d\n價格 : %.2f\n數量 : %d</string>
+    <string name="confirm">確定</string>
+    <string name="success">成功</string>
+</resources>
